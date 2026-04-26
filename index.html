@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sven IA Studio | Branding de Élite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Paleta de Colores Sven IA Studio */
+        body { 
+            background-color: #000000; /* Negro Absoluto */
+            color: #ffffff; 
+            margin: 0;
+            padding: 0;
+        } 
+        
+        .bg-grafito { background-color: #1a1a1a; } /* Negro Grafito */
+        .text-oro-rosa { color: #b76e79; } /* Oro Rosa */
+        .text-cobre { color: #b87333; } /* Cobre */
+        .text-plata { color: #c0c0c0; } /* Plata */
+        
+        /* Degradado de Lujo para Títulos */
+        .sven-gradient { 
+            background: linear-gradient(90deg, #b76e79, #b87333, #e5e4e2); 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+        }
+
+        /* Botón Estilo Cobre a Carmesí */
+        .btn-premium {
+            background: linear-gradient(135deg, #b87333 0%, #a51c30 100%); /* Cobre a Rojo Carmesí */
+            color: white;
+            transition: all 0.3s ease;
+            border: 1px solid #b76e79;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-premium:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(183, 110, 121, 0.4);
+        }
+
+        .card-bg { 
+            background: linear-gradient(180deg, #1a1a1a 0%, #0d0d0d 100%); 
+            border: 1px solid #333; 
+        }
+    </style>
+</head>
+<body class="font-sans border-t-2 border-oro-rosa">
+    
+    <nav class="p-10 text-center">
+        <h1 class="text-3xl font-black tracking-widest uppercase">SVEN <span class="sven-gradient">IA STUDIO</span></h1>
+        <p class="text-xs tracking-widest text-gray-500 mt-2 uppercase">Agencia de Branding & Diseño Generativo</p>
+    </nav>
+
+    <header class="px-8 py-10 text-center">
+        <h2 class="text-4xl font-extrabold mb-6 leading-tight">
+            NO DISEÑAMOS LOGOS, <span class="text-oro-rosa">CREAMOS AUTORIDAD.</span> <br>
+            <span class="text-plata text-2xl font-light italic text-opacity-80">Poder Visual con IA</span>
+        </h2>
+        <p class="text-gray-400 max-w-sm mx-auto text-sm leading-relaxed mb-10">
+            Transformamos negocios locales en marcas de lujo mediante Inteligencia Artificial de última generación.
+        </p>
+        
+        <a href="mailto:SvenIAStudio@gmail.com?subject=Solicitud%20de%20Consultoría%20Elite%20-%20Sven%20IA&body=Hola%20Sven%20IA%20Studio,%20me%20gustaría%20potenciar%20la%20imagen%20de%20mi%20negocio.%20¿Podemos%20agendar%20una%20reunión?" 
+           class="btn-premium px-12 py-4 rounded-sm font-bold uppercase text-xs tracking-widest">
+            Enviar Correo de Consultoría
+        </a>
+    </header>
+
+    <section class="p-6 grid grid-cols-1 gap-8">
+        
+        <div class="card-bg rounded-sm overflow-hidden group">
+            <img src="zeus-tattoo.png" alt="Sra Liebre Concept" class="w-full h-72 object-cover opacity-80 group-hover:opacity-100 transition">
+            <div class="p-6 border-t border-gray-800">
+                <span class="text-cobre text-[10px] font-bold uppercase tracking-[0.2em]">Boutique / Tatuaje</span>
+                <h3 class="text-xl font-bold mt-2 text-plata">Sra. Liebre: Estudio Privado</h3>
+                <div class="w-10 h-0.5 bg-oro-rosa mt-4"></div>
+            </div>
+        </div>
+
+        <div class="card-bg rounded-sm overflow-hidden group">
+            <img src="gym-render.png" alt="Gym Machines Concept" class="w-full h-72 object-cover opacity-80 group-hover:opacity-100 transition">
+            <div class="p-6 border-t border-gray-800">
+                <span class="text-oro-rosa text-[10px] font-bold uppercase tracking-[0.2em]">Industrial / Fitness</span>
+                <h3 class="text-xl font-bold mt-2 text-plata">Gym Machines Bogotá</h3>
+                <div class="w-10 h-0.5 bg-cobre mt-4"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="p-16 text-center">
+        <p class="text-gray-600 text-[10px] tracking-widest uppercase">
+            Desarrollado por <span class="text-oro-rosa">© SVEN IA STUDIO.</span> | 2026 | Bogotá, Colombia
+        </p>
+    </footer>
+
+</body>
+</html>
